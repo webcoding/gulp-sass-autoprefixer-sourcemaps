@@ -1,0 +1,25 @@
+{
+  "name": "gulp-sass-autoprefixer-sourcemaps",
+  "version": "1.0.0",
+  "description": "Gulp task that builds SASS with ruby-sass, autoprefixes, and includes SASS sourcemaps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kendrick/gulp-sass-autoprefixer-sourcemaps"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "autoprefixer",
+    "sourcemaps"
+  ],
+  "author": "Kendrick Arnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kendrick/gulp-sass-autoprefixer-sourcemaps/issues"
+  },
+  "homepage": "https://github.com/kendrick/gulp-sass-autoprefixer-sourcemaps"
+}
