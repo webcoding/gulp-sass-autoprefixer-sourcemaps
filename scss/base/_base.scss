@@ -1,0 +1,33 @@
+// Base
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+h1 {
+  color: #555;
+}
+
+body {
+  font-family: $font1;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-link-hover;
+  }
+}
