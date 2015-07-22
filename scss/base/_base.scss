@@ -18,16 +18,16 @@ h1 {
 
 body {
   font-family: $font1;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
 }
 
 a {
-  color: $color-link;
+  color: #4A90E2;
   text-decoration: none;
 
   &:hover {
-    color: $color-link-hover;
+    color: #89B7EC;
   }
 }

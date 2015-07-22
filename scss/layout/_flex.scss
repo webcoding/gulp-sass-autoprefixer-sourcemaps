@@ -1,0 +1,24 @@
+main,
+.flexwrapper {
+  height: 100%;
+  display: flex;
+  flex: 1;
+}
+
+nav {
+  flex: 0 0 auto;
+}
+
+article {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
+
+  nav {
+    flex: auto;
+  }
+}
