@@ -10,19 +10,7 @@ var browserSync = require('browser-sync').create();
 var scsslint = require('gulp-scss-lint');
 var cache    = require('gulp-cached');
 
-gulp.task('browser-sync', function () {
-  browserSync.init({
-    server: {
-      baseDir: './'
-    }
-  });
-});
-
-gulp.task('scss-lint', function() {
-  gulp.src('./scss/**/*.scss')
-    .pipe(cache('scsslint'))
-    .pipe(scsslint());
-});
+gulp.task('default', ['serve'], function () {});
 
 gulp.task('serve', ['sass', 'browser-sync'], function () {
   gulp.watch('./scss/**/*.scss', ['scss-lint', 'sass']);
@@ -47,6 +35,16 @@ gulp.task('sass', function () {
   ;
 });
 
-gulp.task('default', ['sass', 'browser-sync'], function () {
+gulp.task('browser-sync', function () {
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  });
+});
 
+gulp.task('scss-lint', function() {
+  gulp.src('./scss/**/*.scss')
+    .pipe(cache('scsslint'))
+    .pipe(scsslint());
 });
