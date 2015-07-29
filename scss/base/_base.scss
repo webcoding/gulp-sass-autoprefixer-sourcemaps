@@ -1,4 +1,7 @@
-// Base
+html,
+body {
+  height: 100%;
+}
 
 html {
   box-sizing: border-box;
@@ -9,25 +12,5 @@ html {
   &:before,
   &:after {
     box-sizing: inherit;
-  }
-}
-
-h1 {
-  color: #555;
-}
-
-body {
-  font-family: $font1;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.5;
-}
-
-a {
-  color: #4A90E2;
-  text-decoration: none;
-
-  &:hover {
-    color: #89B7EC;
   }
 }

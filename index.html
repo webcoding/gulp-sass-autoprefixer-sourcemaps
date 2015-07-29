@@ -10,21 +10,11 @@
   <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 
-<body ng-app="routerApp">
+<body ng-app="app">
   <main>
+  <navbar class="navbar"></navbar>
 
-  <nav role="navigation">
-      <div class="site-logo">
-          <a data-ui-sref="root">SASS/Angular Starter Kit</a>
-      </div>
-      <ul>
-          <li><a ui-sref="root">About</a></li>
-          <li><a data-ui-sref="guideline({ category: 'categoryName', guideline: 'detailOne' })">Detail One</a></li>
-          <li><a data-ui-sref="guideline({ category: 'categoryName', guideline: 'detailBill' })">Detail Bill</a></li>
-      </ul>
-  </nav>
-
-  <article>
+  <article class="content-wrapper">
       <div ui-view></div>
   </article>
 
@@ -33,5 +23,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
   <script src="app.js"></script>
+  <script src="navbar.directive.js"></script>
+  <script src="navbar.controller.js"></script>
+  <script src="guideline.factory.js"></script>
 </body>
 </html>

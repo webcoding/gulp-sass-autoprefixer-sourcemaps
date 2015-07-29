@@ -1,15 +1,6 @@
-// Tools
-@import 'tools/site-settings';
-@import 'tools/helpers';
+@import 'tools/tools';
 
-// Base
 @import 'base/base';
-
-// Fonts
-//@import 'fonts/...';
-
-// Layout
-@import 'layout/constrained';
-@import 'layout/flex';
-
-// Modules
+@import 'layout/layout';
+@import 'modules/modules';
+@import 'theme/theme';
