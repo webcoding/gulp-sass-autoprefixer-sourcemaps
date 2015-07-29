@@ -1,7 +1,7 @@
 {
   "name": "gulp-sass-autoprefixer-sourcemaps",
   "version": "1.0.0",
-  "description": "Gulp task that builds, lints, and watches your SASS files. Also autoprefixes and includes SASS sourcemaps.",
+  "description": "SASS project template wiht Autoprefixer & SASS sourcemap special sauce.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
