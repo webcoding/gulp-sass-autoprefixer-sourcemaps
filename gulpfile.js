@@ -18,6 +18,7 @@ gulp.task('serve', ['sass', 'browser-sync'], function () {
 });
 
 gulp.task('sass', function () {
+  // TODO: Pass in/load prefix config
   sass('scss/style.scss', { sourcemap: true, style: 'compact' })
     .pipe(prefix('last 5 Chrome versions',
                  'last 5 Firefox versions',
