@@ -15,3 +15,13 @@
     @content;
   }
 }
+
+@mixin border-radius($amount: 5px) {
+  border-radius: $amount
+}
+
+@mixin box-shadow($shadow...){
+    -webkit-box-shadow:$shadow;
+    -moz-box-shadow:$shadow;
+    box-shadow:$shadow; 
+}
