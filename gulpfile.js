@@ -42,7 +42,7 @@ var AUTOPREFIXER_BROWSERS = [
 // 本质上，gulp-sass还是引用 node-sass 依赖 sass，这里直接用 ruby-sass就成了，
 gulp.task('sass', function () {
   gulp.src('./scss/*.scss')
-    .pipe(sourcemaps.init())
+    .pipe($.sourcemaps.init())
     .pipe(sass())
     //rubySass的 autoprefixer 不能用下面这种参数
     .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
