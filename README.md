@@ -1,6 +1,6 @@
 # gulp-sass-autoprefixer-sourcemaps
 
-一个使用 gulp 编译 sass 的测试项目，包含功能 SASS/Autoprefixer/Sourcemaps-map调试
+一个使用 gulp 编译 sass 的测试项目，包含功能 SASS/Autoprefixer/通过Sourcemaps-map调试 sass
 
 后期改为集成 gulp-tasks-build 的 gulp styles 任务来编译
 
