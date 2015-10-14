@@ -8,8 +8,6 @@
 
 update: 2015-10-14.
 
-An opinionated style starter kit.
-
 ## Get Started
 `npm install && gulp sass` will build all the prefixed styles.
 
